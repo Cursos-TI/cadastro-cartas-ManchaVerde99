@@ -27,15 +27,30 @@ int main(){
               /* Cadastro carta 1 */
 
 
-         printf("Cadastro da carta N1\n");
+         printf("\nCadastro da carta N1\n");
 
-        printf("Estado (A a H exemplo:SP): ");
-          scanf("%2s", &estado1);         
+                        printf("Estado (A a H): ");
+                        scanf("%2s", &estado1);         
 
-        printf("Digite o codigo da carta (Ex: SP01):");
-          scanf("%5s", codigo1);
+                        printf("Digite o codigo da carta (Ex: SP01):");
+                        scanf("%5s", codigo1);
 
-        printf("Nome da sua Cidade:");
+                        printf("Nome da sua Cidade:");
+                        scanf(" %[^\n]", cidade1);
+
+                        printf("População: ");
+                            scanf("%d", &populacao1);
+
+                        printf("Area (km2): ");
+                            scanf("%f", &area1);
+
+                        printf("PIB (Em bilhoes): ");
+                            scanf("%f", &pib1);
+                            
+                        printf("Numero de pontos Turisticos: ");
+                            scanf("%d", &pontoturisticos1);
+
+
 
                  /* Cadastro carta 2, apenas alterando de estado1 para estado2, pib1 para pib2 */
 
